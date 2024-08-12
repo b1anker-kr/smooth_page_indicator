@@ -42,7 +42,7 @@ class ScrollingDotsEffect extends BasicIndicatorEffect {
     double strokeWidth = 1.0,
     PaintingStyle paintStyle = PaintingStyle.fill,
   })  : assert(activeDotScale >= 0.0),
-        assert(maxVisibleDots >= 5 && maxVisibleDots % 2 != 0),
+        assert(maxVisibleDots >= 3 && maxVisibleDots % 2 != 0),
         super(
           dotWidth: dotWidth,
           dotHeight: dotHeight,
